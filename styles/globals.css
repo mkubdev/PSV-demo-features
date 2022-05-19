@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+
+Check https://stackoverflow.com/questions/49518277/import-css-from-node-modules-in-webpack
+to see how to use css-loader
+
+*/
+@import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/photo-sphere-viewer.min.css");
+@import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/compass.css");
+@import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.css");
+@import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/video.css");
+
+
 html,
 body {
   padding: 0;
