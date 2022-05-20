@@ -12,6 +12,7 @@ to see how to use css-loader
 @import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/compass.css");
 @import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/markers.css");
 @import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/video.css");
+@import url("https://cdn.jsdelivr.net/npm/photo-sphere-viewer@4/dist/plugins/virtual-tour.css");
 
 
 html,

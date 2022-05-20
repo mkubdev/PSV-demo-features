@@ -74,6 +74,12 @@ const VideoViewer = (props) => {
     //   console.log('progress', progress.time);
     // });
 
+    videoPlugin.on('start', (e) => {
+      console.log('video start');
+
+      // Fire sound
+    });
+
     // unmount component instructions
     return () => {
       spherePlayerInstance.destroy();
